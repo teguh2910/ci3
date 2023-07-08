@@ -6,13 +6,13 @@ Latihan CRUD Sederhana dengan CodeIgniter3
 -cd ci3
 -setting config db
 -sql script 
---sql
-CREATE TABLE `people` (
+
+	CREATE TABLE `people` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `phone` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
---sql
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 #Happy Coding
